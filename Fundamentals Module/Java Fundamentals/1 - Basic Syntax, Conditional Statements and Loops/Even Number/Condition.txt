@@ -1,0 +1,11 @@
+12.	Even Number
+Take as an input an even number and print its absolute value. If the number is odd, print "Please write an even number." and continue reading numbers.
+Examples
+Input	Output		
+1
+3
+6	Please write an even number.
+Please write an even number.
+The number is: 6		
+-6	The number is: 6
+
