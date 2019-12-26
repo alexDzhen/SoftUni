@@ -1,0 +1,6 @@
+8.	Lower or Upper
+Write a program that prints whether a given character is upper-case or lower-case.
+Examples
+Input	Output
+L	upper-case
+f	lower-case
