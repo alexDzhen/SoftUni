@@ -1,0 +1,12 @@
+7.	Repeat String
+Write a method that receives a string and a repeat count n (integer). The method should return a new string (the old one repeated n times).
+Example
+Input	Output
+abc
+3	abcabcabc
+
+String
+2	StringString
+Hints
+Firstly read the string and the repeat count n. Then create the method and pass it the variables:
+ 
