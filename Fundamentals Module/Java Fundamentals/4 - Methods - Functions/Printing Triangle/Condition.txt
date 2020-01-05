@@ -1,0 +1,28 @@
+3.	Printing Triangle
+Create a method for printing triangles as shown below:
+Examples
+Input	Output
+3	1
+	1 2
+	1 2 3
+	1 2
+	1
+
+4	1
+	1 2
+	1 2 3 
+	1 2 3 4
+	1 2 3
+	1 2
+	1
+Hints
+After you read the input, create a method for printing a single line from a given start to a given end. Choose a meaningful name for it, describing its purpose:
+ 
+You will need two loops. In the first loop you can print the first half of the triangle without the middle line:
+ 
+
+
+Next, print the middle line:
+ 
+Lastly, print the rest of the triangle:
+ 
