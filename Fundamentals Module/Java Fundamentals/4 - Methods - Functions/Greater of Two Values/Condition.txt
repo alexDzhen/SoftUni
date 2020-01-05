@@ -1,0 +1,26 @@
+9.	Greater of Two Values
+You are given two values of the same type as input. The values can be of type int, char of String. Create a method getMax() that returns the greater of the two values: 
+Examples
+Input	Output
+int
+2
+16	16
+
+char
+a
+z	z
+
+string
+Ivan
+Todor	Todor
+
+Hints
+1.	For this method you need to create three methods with the same name and different signatures.
+2.	Create a method which will compare integers:
+ 
+3.	Create a second method with the same name which will compare characters. Follow the logic of the previous method:
+ 
+4.	Lastly you need to create a method to compare strings. This is a bit different as strings don't allow to be compared with the operators ">" and "<":
+ 
+You need to use the method "compareTo()", which returns an integer value (greater than zero if the compared object is greater, less than zero if the compared object is lesser and zero if the two objects are equal).
+5.	The last step is to read the input. Use appropriate variables and call the getMax() from your main().
