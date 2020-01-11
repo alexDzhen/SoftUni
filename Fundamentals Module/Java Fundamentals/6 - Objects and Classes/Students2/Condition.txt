@@ -1,0 +1,24 @@
+6.	Students 2.0
+Use the class from the previous problem. If you receive a student which already exists (first name and last name should be unique) overwrite the information.
+Hints
+Check if the given student already exists:
+ 
+ 
+Overwrite the student information.
+First, we have to find the existing student:
+ 
+ 
+Finally, we have to overwrite the information:
+ 
+We can use Stream API as well:
+ 
+findFirst returns the first occurrence or null.
+Examples
+Input			Output
+John Smith 15 Sofia
+John Smith 16 Sofia
+Linda Bridge 17 Sofia
+Simon Stone 12 Varna
+end
+Sofia			John Smith is 16 years old.
+			Linda Bridge is 17 years old.
