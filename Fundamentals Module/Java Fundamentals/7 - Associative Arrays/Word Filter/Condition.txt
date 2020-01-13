@@ -1,0 +1,12 @@
+4.	Word Filter
+Read an array of strings, take only words which length is even. Print each word on a new line.
+Examples
+Input				Output
+kiwi orange banana apple	kiwi
+				orange
+				banana
+pizza cake pasta chips	cake
+•	Read an array of strings
+•	Filter those whose length is even
+ 
+•	Print each word on a new line
