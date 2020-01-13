@@ -1,0 +1,32 @@
+2.	Word Synonyms
+Write a program which keeps a map with synonyms. The key of the map will be the word. The value will be a list of all the synonyms of that word. You will be given a number n. On the next 2 * n lines you will be given a word and a synonym each on a separate line like this:
+•	{word}
+•	{synonym}
+If you get the same word for second time, just add the new synonym to the list. 
+Print the words in the following format:
+{word} - {synonym1, synonym2… synonymN}
+Examples
+Input		Output
+3
+cute
+adorable
+cute
+charming
+smart
+clever		cute - adorable, charming
+		smart - clever
+
+2
+task
+problem
+task
+assignment	task – problem, assignment
+
+Hints
+•	Use LinkedHashMap (String -> ArrayList<String>) to keep track of all words
+ 
+•	Read 2 * n lines
+•	Add the word in the Map if it is not present
+•	Add the synonym as value to the given word
+ 
+•	Print each word with the synonyms in the required format specified above
