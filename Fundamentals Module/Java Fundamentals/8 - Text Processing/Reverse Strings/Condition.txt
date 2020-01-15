@@ -1,0 +1,26 @@
+1.	Reverse Strings
+You will be given series of strings until you receive an "end" command. Write a program that reverses strings and printseach pair on separate line in format "{word} = {reversed word}".
+Examples
+Input		Output
+helLo
+Softuni
+bottle
+end		helLo = oLleh
+		Softuni = inutfoS
+		bottle = elttob
+
+Dog
+caT
+chAir
+end		Dog = goD
+		caT = Tac
+		chAir = riAhc
+		Solution
+
+Use while loop and read strings until you receive "end".
+ 
+Reverse the string with for loop. Start from the last index and append each symbol to the new string.
+ 
+Print the reversed string in the specified format.
+ 
+
