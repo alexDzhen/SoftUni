@@ -1,0 +1,18 @@
+2.	Repeat strings
+Write a program that reads an array of strings. Each string is repeated n times, where n is the length of the string. Print the concatenated string.
+Examples
+Input		Output
+hi abc add	hihiabcabcabcaddaddadd
+
+work		workworkworkwork
+
+ball		ballballballball
+
+Solution
+Read a string array.
+ 
+Initialize StringBuilder.
+ 
+Iterate through elements in the array. Find the length of the word at each iteration and append it to the StringBuilder.
+ 
+Print the StringBuilder.
