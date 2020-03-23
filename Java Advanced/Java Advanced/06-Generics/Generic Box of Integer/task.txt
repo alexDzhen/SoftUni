@@ -1,0 +1,11 @@
+2. Generic Box of Integer
+Use the description of the previous problem but now, test your generic box with Integers.
+
+Examples
+Input	Output
+3
+7
+123
+42	java.lang.Integer: 7
+	java.lang.Integer: 123
+	java.lang.Integer: 42
